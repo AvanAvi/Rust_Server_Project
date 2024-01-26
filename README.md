@@ -1,6 +1,6 @@
 # RustyServer: A Rust-Laced Odyssey 🚀🦀
 
-## Welcome to RustyServer!
+## Part 1: Welcome to RustyServer!
 Hello, fellow adventurers in the land of code! 👨‍💻🌍 I'm Avan, and I've embarked on a thrilling quest to conquer the Rust language. RustyServer is not just a project; it's my playground, a delightful sandbox where I tinker with Rust's tools and toys. As a budding Rustacean, every function I write and every bug I squash is a step towards mastery. So, join me on this joyous journey, where each line of code is a new frontier in my Rust saga!
 
 ## The Journey Begins: Inside RustyServer
