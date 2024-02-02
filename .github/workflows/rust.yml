@@ -1,4 +1,4 @@
-name: Rust project CI
+name: Rust CI
 
 on:
   push:
@@ -10,32 +10,33 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        rust: [stable]
-
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up Rust
       uses: actions-rs/toolchain@v1
       with:
-        rust-version: ${{ matrix.rust }}
+        rust-version: 1.75.0 
         components: clippy,rustfmt
+
     - name: Build
       uses: actions-rs/cargo@v1
       with:
         command: build
         args: --verbose
+
     - name: Run tests
       uses: actions-rs/cargo@v1
       with:
         command: test
         args: --verbose
+
     - name: Check formatting
       uses: actions-rs/cargo@v1
       with:
         command: fmt
         args: -- --check
+
     - name: Lint with Clippy
       uses: actions-rs/cargo@v1
       with:
