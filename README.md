@@ -1,5 +1,10 @@
 # RustyServer: A Rust-Laced Odyssey 🚀🦀
 
+![Rust Version](https://img.shields.io/badge/rust-1.75.0-orange.svg)
+![Issues](https://img.shields.io/github/issues/AvanAvi/Rust_Server_Project)
+![Forks](https://img.shields.io/github/forks/AvanAvi/Rust_Server_Project)
+![Stars](https://img.shields.io/github/stars/AvanAvi/Rust_Server_Project)
+
 ## Part 1: Welcome to RustyServer!
 Hello, fellow adventurers in the land of code! 👨‍💻🌍 I'm Avan, and I've embarked on a thrilling quest to conquer the Rust language. RustyServer is not just a project; it's my playground, a delightful sandbox where I tinker with Rust's tools and toys. As a budding Rustacean, every function I write and every bug I squash is a step towards mastery. So, join me on this joyous journey, where each line of code is a new frontier in my Rust saga!
 
