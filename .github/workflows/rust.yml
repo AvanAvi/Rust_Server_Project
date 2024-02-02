@@ -9,17 +9,17 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    with:
-      node-version: 20  # Updated to use Node.js 20
+    with:  # Indented to the same level as runs-on
+      node-version: 20
 
     steps:
       - uses: actions/checkout@v2
       - name: Set up Rust
         uses: actions-rs/toolchain@v1
         with:
-          toolchain: 1.75.0 # Corrected from 'rust-version' to 'toolchain'
+          toolchain: 1.75.0
           components: clippy,rustfmt
-          profile: minimal # Optional, to speed up installation
+          profile: minimal
       - name: Build
         uses: actions-rs/cargo@v1
         with:
