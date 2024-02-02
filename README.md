@@ -1,6 +1,7 @@
 # RustyServer: A Rust-Laced Odyssey 🚀🦀
 
 ![Rust Version](https://img.shields.io/badge/rust-1.75.0-orange.svg)
+![Build Status](https://github.com/AvanAvi/Rust_Server_Project/actions/workflows/rust.yml/badge.svg?branch=main)
 ![Issues](https://img.shields.io/github/issues/AvanAvi/Rust_Server_Project)
 ![Forks](https://img.shields.io/github/forks/AvanAvi/Rust_Server_Project)
 ![Stars](https://img.shields.io/github/stars/AvanAvi/Rust_Server_Project)
