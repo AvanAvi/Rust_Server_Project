@@ -16,8 +16,9 @@ jobs:
     - name: Set up Rust
       uses: actions-rs/toolchain@v1
       with:
-        rust-version: 1.75.0 
+        toolchain: 1.75.0 # Corrected from 'rust-version' to 'toolchain'
         components: clippy,rustfmt
+        profile: minimal # Optional, to speed up installation
 
     - name: Build
       uses: actions-rs/cargo@v1
