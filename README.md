@@ -77,7 +77,7 @@ To safeguard against server overload, RustyServer introduces **Connection Thrott
 
 ## Conclusion
 
-Elevating RustyServer with the integration of graceful shutdowns and connection throttling has significantly advanced our exploration of Rust's concurrency capabilities. This progression, from foundational principles to sophisticated resource and connection management, presented a complex yet enlightening challenge. Part 3 has transcended mere functional enhancements; it served as a rigorous testbed that refined my comprehension of Rust's concurrency mechanisms, effectively bridging theoretical concepts with practical implementation.
+Elevating RustyServer with the integration of graceful shutdowns and connection throttling has significantly  improved my exploration of Rust's concurrency capabilities. This progression, from foundational principles to sophisticated resource and connection management, presented a complex yet enlightening challenge. Part 3 has transcended mere functional enhancements; it served as a rigorous testbed that refined my comprehension of Rust's concurrency mechanisms, effectively bridging theoretical concepts with practical implementation.
 
 
 
